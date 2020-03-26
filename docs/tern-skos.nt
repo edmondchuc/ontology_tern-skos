@@ -1,48 +1,48 @@
-_:ub1bL35C23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Project> .
-<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2000/01/rdf-schema#comment> "TERN SKOS is an extension to the SKOS vocabulary." .
+<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/tern/ontologies/skos/> <http://purl.org/dc/terms/created> "2020-03-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:ub1bL19C38 <http://schema.org/affiliation> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> .
+<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> .
+_:ub1bL35C23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+<https://w3id.org/tern/ontologies/skos/hasVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tern/ontologies/skos/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/tern/ontologies/skos/" .
+<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub1bL35C23 <http://usefulinc.com/ns/doap#repository> <https://github.com/ternaustralia/ontology_tern-skos> .
 <https://w3id.org/tern/ontologies/skos/hasCategoricalVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:ub1bL19C38 <http://schema.org/email> "e.chuc@uq.edu.au" .
+<https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/2000/01/rdf-schema#label> "has observation group" .
+_:ub1bL35C23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Project> .
+<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://w3id.org/tern/ontologies/skos/hasVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to a variable, also known as an observable property." .
+<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to a method." .
+<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2000/01/rdf-schema#label> "TERN SKOS Extension" .
+<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/2000/01/rdf-schema#label> "has method" .
+<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/ns/prov#wasGeneratedBy> _:ub1bL35C23 .
+<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to an upper Concept." .
+<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to an observation group." .
 <https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core#> .
+<https://w3id.org/tern/ontologies/skos/> <http://purl.org/dc/terms/modified> "2020-03-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/tern/ontologies/org/0.0.1> .
+<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2000/01/rdf-schema#label> "global match" .
+<https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/2000/01/rdf-schema#label> "is global match of" .
+<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#exactMatch> .
 <https://w3id.org/tern/ontologies/skos/hasVariable> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
 <https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tern/ontologies/skos/globalMatch> .
-<https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/2000/01/rdf-schema#label> "is global match of" .
-<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/ternaustralia/ontology_tern-skos> .
-<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2000/01/rdf-schema#label> "TERN SKOS Extension" .
-<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to an observation group." .
-<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
-<https://w3id.org/tern/ontologies/skos/hasVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/tern/ontologies/skos/hasVariable> <http://www.w3.org/2000/01/rdf-schema#label> "has variable" .
-<https://w3id.org/tern/ontologies/skos/hasVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to a variable, also known as an observable property." .
-_:ub1bL19C38 <http://schema.org/affiliation> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> .
-<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
-<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to an upper Concept." .
-<https://w3id.org/tern/ontologies/skos/> <http://purl.org/dc/terms/modified> "2020-03-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to a method." .
-<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
-_:ub1bL19C38 <http://schema.org/identifier> "https://orcid.org/0000-0002-6047-9864" .
-<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/tern/ontologies/org/0.0.1> .
-<https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Link the upper Concept to a Concept." .
-<https://w3id.org/tern/ontologies/skos/> <http://purl.org/dc/terms/creator> _:ub1bL19C38 .
-<https://w3id.org/tern/ontologies/skos/> <http://purl.org/dc/terms/publisher> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> .
-_:ub1bL35C23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
-<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> .
-<https://w3id.org/tern/ontologies/skos/hasCategoricalVariable> <http://www.w3.org/2000/01/rdf-schema#label> "has categorical variable" .
-<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/2000/01/rdf-schema#label> "has method" .
-_:ub1bL35C23 <http://usefulinc.com/ns/doap#repository> <https://github.com/ternaustralia/ontology_tern-skos> .
-<https://w3id.org/tern/ontologies/skos/hasObservationGroup> <http://www.w3.org/2000/01/rdf-schema#label> "has observation group" .
-<https://w3id.org/tern/ontologies/skos/hasCategoricalVariable> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core#> .
 <https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/tern/ontologies/skos/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/tern/ontologies/skos/" .
-<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/ns/prov#wasGeneratedBy> _:ub1bL35C23 .
-<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2000/01/rdf-schema#label> "global match" .
+<https://w3id.org/tern/ontologies/skos/> <http://purl.org/dc/terms/publisher> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> .
 <https://w3id.org/tern/ontologies/skos/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "tern-skos" .
-<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#exactMatch> .
-<https://w3id.org/tern/ontologies/skos/hasCategoricalVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to a categorical variable." .
-<https://w3id.org/tern/ontologies/skos/globalMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 _:ub1bL19C38 <http://schema.org/name> "Edmond Chuc" .
-<https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<https://w3id.org/tern/ontologies/skos/hasCategoricalVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "Link a Concept to a categorical variable." .
+<https://w3id.org/tern/ontologies/skos/> <http://purl.org/dc/terms/creator> _:ub1bL19C38 .
+<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2000/01/rdf-schema#comment> "TERN SKOS is an extension to the SKOS vocabulary." .
+<https://w3id.org/tern/ontologies/skos/hasMethod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+<https://w3id.org/tern/ontologies/skos/isGlobalMatchOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Link the upper Concept to a Concept." .
+_:ub1bL19C38 <http://schema.org/email> "e.chuc@uq.edu.au" .
+<https://w3id.org/tern/ontologies/skos/hasCategoricalVariable> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+<https://w3id.org/tern/ontologies/skos/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/ternaustralia/ontology_tern-skos> .
+<https://w3id.org/tern/ontologies/skos/hasVariable> <http://www.w3.org/2000/01/rdf-schema#label> "has variable" .
+_:ub1bL19C38 <http://schema.org/identifier> "https://orcid.org/0000-0002-6047-9864" .
+<https://w3id.org/tern/ontologies/skos/hasCategoricalVariable> <http://www.w3.org/2000/01/rdf-schema#label> "has categorical variable" .
 

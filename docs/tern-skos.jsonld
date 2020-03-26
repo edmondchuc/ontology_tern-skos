@@ -1,5 +1,47 @@
 [
   {
+    "@id": "https://w3id.org/tern/ontologies/skos/hasVariable",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Link a Concept to a variable, also known as an observable property."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has variable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/tern/ontologies/skos/hasCategoricalVariable",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Link a Concept to a categorical variable."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has categorical variable"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
+      }
+    ]
+  },
+  {
     "@id": "https://w3id.org/tern/ontologies/skos/isGlobalMatchOf",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
@@ -22,53 +64,6 @@
     "http://www.w3.org/2002/07/owl#inverseOf": [
       {
         "@id": "https://w3id.org/tern/ontologies/skos/globalMatch"
-      }
-    ]
-  },
-  {
-    "@id": "https://w3id.org/tern/ontologies/skos/hasVariable",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Link a Concept to a variable, also known as an observable property."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "has variable"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
-      }
-    ]
-  },
-  {
-    "@id": "https://w3id.org/tern/ontologies/skos/globalMatch",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Link a Concept to an upper Concept."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "global match"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#exactMatch"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "@id": "https://w3id.org/tern/ontologies/skos/isGlobalMatchOf"
       }
     ]
   },
@@ -181,23 +176,28 @@
     ]
   },
   {
-    "@id": "https://w3id.org/tern/ontologies/skos/hasObservationGroup",
+    "@id": "https://w3id.org/tern/ontologies/skos/globalMatch",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
-        "@value": "Link a Concept to an observation group."
+        "@value": "Link a Concept to an upper Concept."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "has observation group"
+        "@value": "global match"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
+        "@id": "http://www.w3.org/2004/02/skos/core#exactMatch"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "https://w3id.org/tern/ontologies/skos/isGlobalMatchOf"
       }
     ]
   },
@@ -223,18 +223,18 @@
     ]
   },
   {
-    "@id": "https://w3id.org/tern/ontologies/skos/hasCategoricalVariable",
+    "@id": "https://w3id.org/tern/ontologies/skos/hasObservationGroup",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
-        "@value": "Link a Concept to a categorical variable."
+        "@value": "Link a Concept to an observation group."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "has categorical variable"
+        "@value": "has observation group"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
