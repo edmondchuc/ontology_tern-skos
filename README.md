@@ -1,4 +1,4 @@
-# TERN SSN SHACL Shapes
+# TERN SKOS Extension
 
 This repository contains a small TERN SKOS extension defined in https://w3id.org/tern/ontologies/skos/. The repository for tern-skos ontology is at https://github.com/ternaustralia/ontology_tern-skos.
 
