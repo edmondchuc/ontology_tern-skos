@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   TERN SKOS Extension
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <div id="pylode">
+   made by
+   <a href="http://github.com/rdflib/pyLODE">
+    pyLODE
+   </a>
+  </div>  <a href="https://www.tern.org.au">
+   <img alt="TERN logo." src="https://www.tern.org.au/rs/7/sites/998/custom_files/tpl_images/assets/images/logo.png"/>
+  </a>
+  <h1>
+   TERN SKOS Extension
+  </h1>
+  <section id="metadata">
+   <h2 style="display:none;">
+    Metadata
+   </h2>
+   <dl>
+    <dt>
+     IRI
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/tern/ontologies/skos/
+     </code>
+    </dd>
+    <dt>
+     Publisher(s)
+    </dt>
+    <dd>
+     None
+     <br/>
+    </dd>
+    <dt>
+     Creator(s)
+    </dt>
+    <dd>
+     <a href="https://orcid.org/0000-0002-6047-9864">
+      Edmond Chuc
+     </a>
+     (
+     <a href="mailto:e.chuc@uq.edu.au">
+      e.chuc@uq.edu.au
+     </a>
+     )
+     <br/>
+    </dd>
+    <dt>
+     Created
+    </dt>
+    <dd>
+     2020-03-26
+    </dd>
+    <dt>
+     Modified
+    </dt>
+    <dd>
+     2020-03-26
+    </dd>
+    <dt>
+     Version Information
+    </dt>
+    <dd>
+     0.0.1
+    </dd>
+    <dt>
+     Version IRI
+    </dt>
+    <dd>
+     <a href="https://w3id.org/tern/ontologies/org/0.0.1">
+      https://w3id.org/tern/ontologies/org/0.0.1
+     </a>
+    </dd>
+    <dt>
+     Imports
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2004/02/skos/core#">
+      skos:
+     </a>
+     <br/>
+    </dd>
+    <dt>
+     Ontology Source
+    </dt>
+    <dd>
+     <a href="tern-skos.ttl">
+      RDF (turtle)
+     </a>
+    </dd>
+    <dt>
+     Code Repository
+    </dt>
+    <dd>
+     <a href="https://github.com/ternaustralia/ontology_tern-skos">
+      https://github.com/ternaustralia/ontology_tern-skos
+     </a>
+    </dd>
+   </dl>
+   <h2>
+    Description
+   </h2>
+   <div id="description">
+    <p>
+     TERN SKOS is an extension to the SKOS vocabulary.
+    </p>
+   </div>
+  </section>
+  <section id="toc">
+   <h2>
+    Table of Contents
+   </h2>
+   <ol>
+    <li>
+     <a href="#overview">
+      Overview
+     </a>
+    </li>
+    <li>
+     <a href="#objectproperties">
+      Object Properties
+     </a>
+    </li>
+    <li>
+     <a href="#namespaces">
+      Namespaces
+     </a>
+    </li>
+   </ol>
+  </section>
+  <section id="overview">
+   <h2>
+    Overview
+   </h2>
+   <p style="padding-bottom: 1rem;">
+    An overview of the TERN SKOS extension.
+   </p>
+   <figure>
+    <img alt="TERN SKOS extension diagram." src="tern-skos.ttl.txt.svg"/>
+    <figcaption style="padding-bottom: 3rem">
+     <strong>
+      Figure 1:
+     </strong>
+     TERN SKOS extension overview.
+    </figcaption>
+   </figure>
+  </section>
+  <section id="classes">
+   <h2>
+    Classes
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &uparrow
+     </a>
+    </span>
+   </h2>
+   <ul class="hlist">
+   </ul>
+  </section>
+  <section id="objectproperties">
+   <h2>
+    Object Properties
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &uparrow
+     </a>
+    </span>
+   </h2>
+   <ul class="hlist">
+    <li>
+     <a href="#globalmatch">
+      global match
+     </a>
+    </li>
+    <li>
+     <a href="#hascategoricalvariable">
+      has categorical variable
+     </a>
+    </li>
+    <li>
+     <a href="#hasmethod">
+      has method
+     </a>
+    </li>
+    <li>
+     <a href="#hasobservationgroup">
+      has observation group
+     </a>
+    </li>
+    <li>
+     <a href="#hasvariable">
+      has variable
+     </a>
+    </li>
+    <li>
+     <a href="#isglobalmatchof">
+      is global match of
+     </a>
+    </li>
+   </ul>
+   <div class="entity property" id="globalmatch">
+    <h3>
+     global match
+     <sup class="sup-op" title="object property">
+      op
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/globalMatch
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Description
+      </th>
+      <td>
+       Link a Concept to an upper Concept.
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Super-properties
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#exactMatch">
+        skos:exactMatch
+       </a>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="hascategoricalvariable">
+    <h3>
+     has categorical variable
+     <sup class="sup-op" title="object property">
+      op
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/hasCategoricalVariable
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Description
+      </th>
+      <td>
+       Link a Concept to a categorical variable.
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Super-properties
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
+        skos:relatedMatch
+       </a>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="hasmethod">
+    <h3>
+     has method
+     <sup class="sup-op" title="object property">
+      op
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/hasMethod
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Description
+      </th>
+      <td>
+       Link a Concept to a method.
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Super-properties
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
+        skos:relatedMatch
+       </a>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="hasobservationgroup">
+    <h3>
+     has observation group
+     <sup class="sup-op" title="object property">
+      op
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/hasObservationGroup
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Description
+      </th>
+      <td>
+       Link a Concept to an observation group.
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Super-properties
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
+        skos:relatedMatch
+       </a>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="hasvariable">
+    <h3>
+     has variable
+     <sup class="sup-op" title="object property">
+      op
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/hasVariable
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Description
+      </th>
+      <td>
+       Link a Concept to a variable, also known as an observable property.
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Super-properties
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
+        skos:relatedMatch
+       </a>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="isglobalmatchof">
+    <h3>
+     is global match of
+     <sup class="sup-op" title="object property">
+      op
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/isGlobalMatchOf
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Description
+      </th>
+      <td>
+       Link the upper Concept to a Concept.
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Super-properties
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#exactMatch">
+        skos:exactMatch
+       </a>
+      </td>
+     </tr>
+    </table>
+   </div>
+  </section>
+  <section id="namespaces">
+   <h2>
+    Namespaces
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &uparrow
+     </a>
+    </span>
+   </h2>
+   <dl>
+    <dt>
+     <em>
+      default (:)
+     </em>
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/tern/ontologies/skos/
+     </code>
+    </dd>
+    <dt>
+     doap
+    </dt>
+    <dd>
+     <code>
+      http://usefulinc.com/ns/doap#
+     </code>
+    </dd>
+    <dt>
+     owl
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2002/07/owl#
+     </code>
+    </dd>
+    <dt>
+     prov
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/ns/prov#
+     </code>
+    </dd>
+    <dt>
+     rdf
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/1999/02/22-rdf-syntax-ns#
+     </code>
+    </dd>
+    <dt>
+     rdfs
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2000/01/rdf-schema#
+     </code>
+    </dd>
+    <dt>
+     schema
+    </dt>
+    <dd>
+     <code>
+      http://schema.org/
+     </code>
+    </dd>
+    <dt>
+     skos
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2004/02/skos/core#
+     </code>
+    </dd>
+    <dt>
+     tern-skos
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/tern/ontologies/skos/
+     </code>
+    </dd>
+    <dt>
+     vann
+    </dt>
+    <dd>
+     <code>
+      http://purl.org/vocab/vann/
+     </code>
+    </dd>
+    <dt>
+     xml
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/XML/1998/namespace
+     </code>
+    </dd>
+    <dt>
+     xsd
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/2001/XMLSchema#
+     </code>
+    </dd>
+   </dl>
+  </section>
+  <section id="legend">
+   <h2>
+    Legend
+   </h2>
+   <table class="entity">
+    <tr>
+     <td>
+      <sup class="sup-c" title="Classes">
+       c
+      </sup>
+     </td>
+     <td>
+      Classes
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-op" title="Object Properties">
+       op
+      </sup>
+     </td>
+     <td>
+      Object Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-fp" title="Functional Properties">
+       fp
+      </sup>
+     </td>
+     <td>
+      Functional Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-dp" title="Data Properties">
+       dp
+      </sup>
+     </td>
+     <td>
+      Data Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-ap" title="Annotation Properties">
+       dp
+      </sup>
+     </td>
+     <td>
+      Annotation Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-p" title="Properties">
+       p
+      </sup>
+     </td>
+     <td>
+      Properties
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <sup class="sup-ni" title="Named Individuals">
+       ni
+      </sup>
+     </td>
+     <td>
+      Named Individuals
+     </td>
+    </tr>
+   </table>
+  </section>
+ </body>
+</html>
