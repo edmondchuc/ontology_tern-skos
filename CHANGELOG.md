@@ -5,6 +5,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.0.2] - 2020-02-27
+### Added
+- sosa:ObservableProperty with subclass to skos:Concept
+- sosa:Procedure with subclass to skos:Concept
+- tern-ssn:QuantitativeVariable with subclass to skos:Concept
+- domain and range for:
+    - tern-skos:globalMatch
+    - tern-skos:isGlobalMatchOf
+    - tern-skos:hasMethod
+    - tern-skos:hasVariable
+    - tern-skos:hasQuantitativeVariable
+    - tern-skos:hasObservationTheme
+### Changed
+- tern-skos:hasCategoricalVariable changed to tern-skos:hasQuantitativeVariable
+- tern-skos:hasObservationGroup changed to tern-skos:hasObservationTheme
+### Removed
+- Now defined in tern-ssn instead of tern-skos
+    - tern-ssn:Variable
+    - tern-ssn:Method
+    - tern-ssn:CategoricalVariable
+
+
 ## [0.0.1] - 2020-02-26
 ### Added
 - Initial release.

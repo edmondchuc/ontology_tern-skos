@@ -63,20 +63,20 @@
      Modified
     </dt>
     <dd>
-     2020-03-26
+     2020-03-27
     </dd>
     <dt>
      Version Information
     </dt>
     <dd>
-     0.0.1
+     0.0.2
     </dd>
     <dt>
      Version IRI
     </dt>
     <dd>
-     <a href="https://w3id.org/tern/ontologies/org/0.0.1">
-      https://w3id.org/tern/ontologies/org/0.0.1
+     <a href="https://w3id.org/tern/ontologies/org/0.0.2">
+      https://w3id.org/tern/ontologies/org/0.0.2
      </a>
     </dd>
     <dt>
@@ -85,6 +85,10 @@
     <dd>
      <a href="http://www.w3.org/2004/02/skos/core#">
       skos:
+     </a>
+     <br/>
+     <a href="https://w3id.org/tern/ontologies/ssn/">
+      tern-ssn:
      </a>
      <br/>
     </dd>
@@ -181,18 +185,18 @@
      </a>
     </li>
     <li>
-     <a href="#hascategoricalvariable">
-      has categorical variable
-     </a>
-    </li>
-    <li>
      <a href="#hasmethod">
       has method
      </a>
     </li>
     <li>
-     <a href="#hasobservationgroup">
-      has observation group
+     <a href="#hasobservationtheme">
+      has observation theme
+     </a>
+    </li>
+    <li>
+     <a href="#hasquantitativevariable">
+      has quantitative variable
      </a>
     </li>
     <li>
@@ -242,42 +246,30 @@
        </a>
       </td>
      </tr>
-    </table>
-   </div>
-   <div class="entity property" id="hascategoricalvariable">
-    <h3>
-     has categorical variable
-     <sup class="sup-op" title="object property">
-      op
-     </sup>
-    </h3>
-    <table>
      <tr>
       <th>
-       IRI
+       Domain(s)
       </th>
       <td>
-       <code>
-        https://w3id.org/tern/ontologies/skos/hasCategoricalVariable
-       </code>
-      </td>
-     </tr>
-     <tr>
-      <th>
-       Description
-      </th>
-      <td>
-       Link a Concept to a categorical variable.
-      </td>
-     </tr>
-     <tr>
-      <th>
-       Super-properties
-      </th>
-      <td>
-       <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
-        skos:relatedMatch
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
        </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Range(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
       </td>
      </tr>
     </table>
@@ -318,11 +310,37 @@
        </a>
       </td>
      </tr>
+     <tr>
+      <th>
+       Domain(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Range(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/ns/sosa/Procedure">
+        sosa:Procedure
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
     </table>
    </div>
-   <div class="entity property" id="hasobservationgroup">
+   <div class="entity property" id="hasobservationtheme">
     <h3>
-     has observation group
+     has observation theme
      <sup class="sup-op" title="object property">
       op
      </sup>
@@ -334,7 +352,7 @@
       </th>
       <td>
        <code>
-        https://w3id.org/tern/ontologies/skos/hasObservationGroup
+        https://w3id.org/tern/ontologies/skos/hasObservationTheme
        </code>
       </td>
      </tr>
@@ -343,7 +361,7 @@
        Description
       </th>
       <td>
-       Link a Concept to an observation group.
+       Link a Concept to an observation theme.
       </td>
      </tr>
      <tr>
@@ -354,6 +372,96 @@
        <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
         skos:relatedMatch
        </a>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Domain(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Range(s)
+      </th>
+      <td>
+       <a href="https://w3id.org/tern/ontologies/ssn/ObservationTheme">
+        tern-ssn:ObservationTheme
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="hasquantitativevariable">
+    <h3>
+     has quantitative variable
+     <sup class="sup-op" title="object property">
+      op
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/hasQuantitativeVariable
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Description
+      </th>
+      <td>
+       Link a Concept to a Quantitative Variable.
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Super-properties
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
+        skos:relatedMatch
+       </a>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Domain(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Range(s)
+      </th>
+      <td>
+       <a href="https://w3id.org/tern/ontologies/ssn/QuantitativeVariable">
+        tern-ssn:QuantitativeVariable
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
       </td>
      </tr>
     </table>
@@ -394,6 +502,32 @@
        </a>
       </td>
      </tr>
+     <tr>
+      <th>
+       Domain(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Range(s)
+      </th>
+      <td>
+       <a href="https://w3id.org/tern/ontologies/ssn/Variable">
+        tern-ssn:Variable
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
     </table>
    </div>
    <div class="entity property" id="isglobalmatchof">
@@ -430,6 +564,32 @@
        <a href="http://www.w3.org/2004/02/skos/core#exactMatch">
         skos:exactMatch
        </a>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Domain(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Range(s)
+      </th>
+      <td>
+       <a href="http://www.w3.org/2004/02/skos/core#Concept">
+        skos:Concept
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
       </td>
      </tr>
     </table>
@@ -512,11 +672,27 @@
      </code>
     </dd>
     <dt>
+     sosa
+    </dt>
+    <dd>
+     <code>
+      http://www.w3.org/ns/sosa/
+     </code>
+    </dd>
+    <dt>
      tern-skos
     </dt>
     <dd>
      <code>
       https://w3id.org/tern/ontologies/skos/
+     </code>
+    </dd>
+    <dt>
+     tern-ssn
+    </dt>
+    <dd>
+     <code>
+      https://w3id.org/tern/ontologies/ssn/
      </code>
     </dd>
     <dt>
