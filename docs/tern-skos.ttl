@@ -26,7 +26,7 @@ tern-skos:
       schema:identifier "https://orcid.org/0000-0002-6047-9864" ;
       schema:name "Edmond Chuc" ;
     ] ;
-  <http://purl.org/dc/terms/modified> "2020-03-27"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2020-04-06"^^xsd:date ;
   <http://purl.org/dc/terms/publisher> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
   vann:preferredNamespacePrefix "tern-skos" ;
   vann:preferredNamespaceUri "https://w3id.org/tern/ontologies/skos/" ;
@@ -35,8 +35,8 @@ tern-skos:
   rdfs:seeAlso <https://github.com/ternaustralia/ontology_tern-skos> ;
   owl:imports skos: ;
   owl:imports tern-ssn: ;
-  owl:versionIRI <https://w3id.org/tern/ontologies/org/0.0.2> ;
-  owl:versionInfo "0.0.2" ;
+  owl:versionIRI <https://w3id.org/tern/ontologies/org/0.0.3> ;
+  owl:versionInfo "0.0.3" ;
   prov:wasGeneratedBy [
       a doap:Project ;
       a prov:Activity ;
@@ -46,50 +46,38 @@ tern-skos:
 tern-skos:globalMatch
   a owl:ObjectProperty ;
   rdfs:comment "Link a Concept to an upper Concept." ;
-  rdfs:domain skos:Concept ;
   rdfs:label "global match" ;
-  rdfs:range skos:Concept ;
   rdfs:subPropertyOf skos:exactMatch ;
   owl:inverseOf tern-skos:isGlobalMatchOf ;
 .
 tern-skos:hasMethod
   a owl:ObjectProperty ;
   rdfs:comment "Link a Concept to a method." ;
-  rdfs:domain skos:Concept ;
   rdfs:label "has method" ;
-  rdfs:range sosa:Procedure ;
   rdfs:subPropertyOf skos:relatedMatch ;
 .
 tern-skos:hasObservationTheme
   a owl:ObjectProperty ;
   rdfs:comment "Link a Concept to an observation theme." ;
-  rdfs:domain skos:Concept ;
   rdfs:label "has observation theme" ;
-  rdfs:range tern-ssn:ObservationTheme ;
   rdfs:subPropertyOf skos:relatedMatch ;
 .
 tern-skos:hasQuantitativeVariable
   a owl:ObjectProperty ;
   rdfs:comment "Link a Concept to a Quantitative Variable." ;
-  rdfs:domain skos:Concept ;
   rdfs:label "has quantitative variable" ;
-  rdfs:range tern-ssn:QuantitativeVariable ;
   rdfs:subPropertyOf skos:relatedMatch ;
 .
 tern-skos:hasVariable
   a owl:ObjectProperty ;
   rdfs:comment "Link a Concept to a variable, also known as an observable property." ;
-  rdfs:domain skos:Concept ;
   rdfs:label "has variable" ;
-  rdfs:range tern-ssn:Variable ;
   rdfs:subPropertyOf skos:relatedMatch ;
 .
 tern-skos:isGlobalMatchOf
   a owl:ObjectProperty ;
   rdfs:comment "Link the upper Concept to a Concept." ;
-  rdfs:domain skos:Concept ;
   rdfs:label "is global match of" ;
-  rdfs:range skos:Concept ;
   rdfs:subPropertyOf skos:exactMatch ;
   owl:inverseOf tern-skos:globalMatch ;
 .
