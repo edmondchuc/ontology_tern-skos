@@ -68,10 +68,10 @@ tern-skos:hasObservationTheme
   rdfs:label "has observation theme" ;
   rdfs:subPropertyOf skos:relatedMatch ;
 .
-tern-skos:hasVariable
+tern-skos:hasParameter
   a owl:ObjectProperty ;
-  rdfs:comment "Link a Concept to a variable, also known as an observable property." ;
-  rdfs:label "has variable" ;
+  rdfs:comment "Link a Concept to a parameter." ;
+  rdfs:label "has parameter" ;
   rdfs:subPropertyOf skos:relatedMatch ;
 .
 tern-skos:isGlobalMatchOf
