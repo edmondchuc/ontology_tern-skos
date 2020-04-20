@@ -26,7 +26,7 @@ tern-skos:
       schema:identifier "https://orcid.org/0000-0002-6047-9864" ;
       schema:name "Edmond Chuc" ;
     ] ;
-  <http://purl.org/dc/terms/modified> "2020-04-08"^^xsd:date ;
+  <http://purl.org/dc/terms/modified> "2020-04-20"^^xsd:date ;
   <http://purl.org/dc/terms/publisher> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
   vann:preferredNamespacePrefix "tern-skos" ;
   vann:preferredNamespaceUri "https://w3id.org/tern/ontologies/skos/" ;
@@ -35,8 +35,8 @@ tern-skos:
   rdfs:seeAlso <https://github.com/ternaustralia/ontology_tern-skos> ;
   owl:imports skos: ;
   owl:imports tern-ssn: ;
-  owl:versionIRI <https://w3id.org/tern/ontologies/org/0.0.4> ;
-  owl:versionInfo "0.0.4" ;
+  owl:versionIRI <https://w3id.org/tern/ontologies/org/0.0.5> ;
+  owl:versionInfo "0.0.5" ;
   prov:wasGeneratedBy [
       a doap:Project ;
       a prov:Activity ;
