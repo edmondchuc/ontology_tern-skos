@@ -63,20 +63,20 @@
      Modified
     </dt>
     <dd>
-     2020-04-20
+     2020-07-27
     </dd>
     <dt>
      Version Information
     </dt>
     <dd>
-     0.0.5
+     0.0.6
     </dd>
     <dt>
      Version IRI
     </dt>
     <dd>
-     <a href="https://w3id.org/tern/ontologies/org/0.0.5">
-      https://w3id.org/tern/ontologies/org/0.0.5
+     <a href="https://w3id.org/tern/ontologies/ssn/0.0.6">
+      https://w3id.org/tern/ontologies/ssn/0.0.6
      </a>
     </dd>
     <dt>
@@ -131,6 +131,11 @@
     <li>
      <a href="#objectproperties">
       Object Properties
+     </a>
+    </li>
+    <li>
+     <a href="#properties">
+      Properties
      </a>
     </li>
     <li>
@@ -272,16 +277,6 @@
       </th>
       <td>
        Link a Concept to a Categorical Variable collection.
-      </td>
-     </tr>
-     <tr>
-      <th>
-       Super-properties
-      </th>
-      <td>
-       <a href="http://www.w3.org/2004/02/skos/core#relatedMatch">
-        skos:relatedMatch
-       </a>
       </td>
      </tr>
     </table>
@@ -439,6 +434,94 @@
     </table>
    </div>
   </section>
+  <section id="properties">
+   <h2>
+    Properties
+    <span style="float:right; font-size:smaller;">
+     <a href="">
+      &uparrow
+     </a>
+    </span>
+   </h2>
+   <ul class="hlist">
+    <li>
+     <a href="#equipment">
+      equipment
+     </a>
+    </li>
+    <li>
+     <a href="#procedure">
+      procedure
+     </a>
+    </li>
+   </ul>
+   <div class="entity property" id="equipment">
+    <h3>
+     equipment
+     <sup class="sup-p" title="property">
+      p
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/equipment
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Domain(s)
+      </th>
+      <td>
+       <a href="https://w3id.org/tern/ontologies/ssn/Method">
+        tern-ssn:Method
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="entity property" id="procedure">
+    <h3>
+     procedure
+     <sup class="sup-p" title="property">
+      p
+     </sup>
+    </h3>
+    <table>
+     <tr>
+      <th>
+       IRI
+      </th>
+      <td>
+       <code>
+        https://w3id.org/tern/ontologies/skos/procedure
+       </code>
+      </td>
+     </tr>
+     <tr>
+      <th>
+       Domain(s)
+      </th>
+      <td>
+       <a href="https://w3id.org/tern/ontologies/ssn/Method">
+        tern-ssn:Method
+       </a>
+       <sup class="sup-c" title="class">
+        c
+       </sup>
+      </td>
+     </tr>
+    </table>
+   </div>
+  </section>
   <section id="namespaces">
    <h2>
     Namespaces
@@ -457,6 +540,14 @@
     <dd>
      <code>
       https://w3id.org/tern/ontologies/skos/
+     </code>
+    </dd>
+    <dt>
+     dct
+    </dt>
+    <dd>
+     <code>
+      http://purl.org/dc/terms/
      </code>
     </dd>
     <dt>

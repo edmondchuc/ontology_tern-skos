@@ -4,6 +4,7 @@
 # prefix: tern-skos
 
 @prefix : <https://w3id.org/tern/ontologies/skos/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -19,15 +20,15 @@
 
 tern-skos:
   a owl:Ontology ;
-  <http://purl.org/dc/terms/created> "2020-03-26"^^xsd:date ;
-  <http://purl.org/dc/terms/creator> [
+  dct:created "2020-03-26"^^xsd:date ;
+  dct:creator [
       schema:affiliation <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
       schema:email "e.chuc@uq.edu.au" ;
       schema:identifier "https://orcid.org/0000-0002-6047-9864" ;
       schema:name "Edmond Chuc" ;
     ] ;
-  <http://purl.org/dc/terms/modified> "2020-04-20"^^xsd:date ;
-  <http://purl.org/dc/terms/publisher> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
+  dct:modified "2020-07-27"^^xsd:date ;
+  dct:publisher <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
   vann:preferredNamespacePrefix "tern-skos" ;
   vann:preferredNamespaceUri "https://w3id.org/tern/ontologies/skos/" ;
   rdfs:comment "TERN SKOS is an extension to the SKOS vocabulary." ;
@@ -35,13 +36,18 @@ tern-skos:
   rdfs:seeAlso <https://github.com/ternaustralia/ontology_tern-skos> ;
   owl:imports skos: ;
   owl:imports tern-ssn: ;
-  owl:versionIRI <https://w3id.org/tern/ontologies/org/0.0.5> ;
-  owl:versionInfo "0.0.5" ;
+  owl:versionIRI <https://w3id.org/tern/ontologies/ssn/0.0.6> ;
+  owl:versionInfo "0.0.6" ;
   prov:wasGeneratedBy [
       a doap:Project ;
       a prov:Activity ;
       doap:repository <https://github.com/ternaustralia/ontology_tern-skos> ;
     ] ;
+.
+tern-skos:equipment
+  a rdf:Property ;
+  rdfs:domain tern-ssn:Method ;
+  rdfs:label "equipment" ;
 .
 tern-skos:globalMatch
   a owl:ObjectProperty ;
@@ -54,7 +60,6 @@ tern-skos:hasCategoricalVariableCollection
   a owl:ObjectProperty ;
   rdfs:comment "Link a Concept to a Categorical Variable collection." ;
   rdfs:label "has categorical variable collection" ;
-  rdfs:subPropertyOf skos:relatedMatch ;
 .
 tern-skos:hasMethod
   a owl:ObjectProperty ;
@@ -80,4 +85,9 @@ tern-skos:isGlobalMatchOf
   rdfs:label "is global match of" ;
   rdfs:subPropertyOf skos:exactMatch ;
   owl:inverseOf tern-skos:globalMatch ;
+.
+tern-skos:procedure
+  a rdf:Property ;
+  rdfs:domain tern-ssn:Method ;
+  rdfs:label "procedure" ;
 .
