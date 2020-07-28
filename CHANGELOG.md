@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.0.7] - 2020-07-28
+### Added
+- tern-skos:instructions
+- tern-skos:purpose
+- tern-skos:scope
+
+
 ## [0.0.6] - 2020-07-27
 ### Removed
 - tern-skos:hasCategoricalVariableCollection rdfs:subPropertyOf skos:relatedMatch

@@ -58,12 +58,23 @@ tern-skos:hasParameter a owl:ObjectProperty ;
     rdfs:comment "Link a Concept to a parameter." ;
     rdfs:subPropertyOf skos:relatedMatch .
 
+tern-skos:instructions a rdf:Property ;
+    rdfs:label "instructions" .
+
 tern-skos:procedure a rdf:Property ;
     rdfs:label "procedure" ;
     rdfs:domain tern-ssn:Method .
 
+tern-skos:purpose a rdf:Property ;
+    rdfs:label "purpose" ;
+    rdfs:domain tern-ssn:Method .
+
 tern-skos:reasonForCollection a rdf:Property ;
     rdfs:label "reason for collection" ;
+    rdfs:domain tern-ssn:Method .
+
+tern-skos:scope a rdf:Property ;
+    rdfs:label "scope" ;
     rdfs:domain tern-ssn:Method .
 
 tern-skos:globalMatch a owl:ObjectProperty ;
