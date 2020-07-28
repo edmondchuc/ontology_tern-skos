@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://w3id.org/tern/ontologies/skos/procedure",
+    "@id": "https://w3id.org/tern/ontologies/skos/equipment",
     "@type": [
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
@@ -11,54 +11,23 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "procedure"
+        "@value": "equipment"
       }
     ]
   },
   {
-    "@id": "https://w3id.org/tern/ontologies/skos/hasObservationTheme",
+    "@id": "https://w3id.org/tern/ontologies/skos/reasonForCollection",
     "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@value": "Link a Concept to an observation theme."
+        "@id": "https://w3id.org/tern/ontologies/ssn/Method"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "has observation theme"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
-      }
-    ]
-  },
-  {
-    "@id": "https://w3id.org/tern/ontologies/skos/globalMatch",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "Link a Concept to an upper Concept."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "global match"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#exactMatch"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "@id": "https://w3id.org/tern/ontologies/skos/isGlobalMatchOf"
+        "@value": "reason for collection"
       }
     ]
   },
@@ -174,23 +143,18 @@
     ]
   },
   {
-    "@id": "https://w3id.org/tern/ontologies/skos/hasMethod",
+    "@id": "https://w3id.org/tern/ontologies/skos/procedure",
     "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
     ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@value": "Link a Concept to a method."
+        "@id": "https://w3id.org/tern/ontologies/ssn/Method"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "has method"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
+        "@value": "procedure"
       }
     ]
   },
@@ -221,18 +185,44 @@
     ]
   },
   {
-    "@id": "https://w3id.org/tern/ontologies/skos/equipment",
+    "@id": "https://w3id.org/tern/ontologies/skos/hasCategoricalVariableCollection",
     "@type": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
-        "@id": "https://w3id.org/tern/ontologies/ssn/Method"
+        "@value": "Link a Concept to a Categorical Variable collection."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "equipment"
+        "@value": "has categorical variable collection"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/tern/ontologies/skos/globalMatch",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Link a Concept to an upper Concept."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "global match"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#exactMatch"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "https://w3id.org/tern/ontologies/skos/isGlobalMatchOf"
       }
     ]
   },
@@ -258,18 +248,44 @@
     ]
   },
   {
-    "@id": "https://w3id.org/tern/ontologies/skos/hasCategoricalVariableCollection",
+    "@id": "https://w3id.org/tern/ontologies/skos/hasMethod",
     "@type": [
       "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
-        "@value": "Link a Concept to a Categorical Variable collection."
+        "@value": "Link a Concept to a method."
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "has categorical variable collection"
+        "@value": "has method"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/tern/ontologies/skos/hasObservationTheme",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Link a Concept to an observation theme."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has observation theme"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#relatedMatch"
       }
     ]
   }

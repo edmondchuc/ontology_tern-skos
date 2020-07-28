@@ -62,6 +62,10 @@ tern-skos:procedure a rdf:Property ;
     rdfs:label "procedure" ;
     rdfs:domain tern-ssn:Method .
 
+tern-skos:reasonForCollection a rdf:Property ;
+    rdfs:label "reason for collection" ;
+    rdfs:domain tern-ssn:Method .
+
 tern-skos:globalMatch a owl:ObjectProperty ;
     rdfs:label "global match" ;
     rdfs:comment "Link a Concept to an upper Concept." ;

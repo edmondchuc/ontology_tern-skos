@@ -91,3 +91,8 @@ tern-skos:procedure
   rdfs:domain tern-ssn:Method ;
   rdfs:label "procedure" ;
 .
+tern-skos:reasonForCollection
+  a rdf:Property ;
+  rdfs:domain tern-ssn:Method ;
+  rdfs:label "reason for collection" ;
+.
