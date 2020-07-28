@@ -21,7 +21,7 @@ tern-skos: a owl:Ontology ;
             schema:email "e.chuc@uq.edu.au" ;
             schema:identifier "https://orcid.org/0000-0002-6047-9864" ;
             schema:name "Edmond Chuc" ] ;
-    dct:modified "2020-07-27"^^xsd:date ;
+    dct:modified "2020-07-28"^^xsd:date ;
     dct:publisher <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
     vann:preferredNamespacePrefix "tern-skos" ;
     vann:preferredNamespaceUri "https://w3id.org/tern/ontologies/skos/" ;
@@ -29,8 +29,8 @@ tern-skos: a owl:Ontology ;
     rdfs:seeAlso <https://github.com/ternaustralia/ontology_tern-skos> ;
     owl:imports skos:,
         tern-ssn: ;
-    owl:versionIRI <https://w3id.org/tern/ontologies/ssn/0.0.6> ;
-    owl:versionInfo "0.0.6" ;
+    owl:versionIRI <https://w3id.org/tern/ontologies/ssn/0.0.7> ;
+    owl:versionInfo "0.0.7" ;
     prov:wasGeneratedBy [ a doap:Project,
                 prov:Activity ;
             doap:repository <https://github.com/ternaustralia/ontology_tern-skos> ] .
@@ -59,7 +59,8 @@ tern-skos:hasParameter a owl:ObjectProperty ;
     rdfs:subPropertyOf skos:relatedMatch .
 
 tern-skos:instructions a rdf:Property ;
-    rdfs:label "instructions" .
+    rdfs:label "instructions" ;
+    rdfs:domain tern-ssn:Method .
 
 tern-skos:procedure a rdf:Property ;
     rdfs:label "procedure" ;

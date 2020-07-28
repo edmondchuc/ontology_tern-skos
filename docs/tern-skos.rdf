@@ -9,98 +9,99 @@
    xmlns:schema="http://schema.org/"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
-  <rdf:Description rdf:nodeID="ub1bL23C15">
-    <schema:identifier>https://orcid.org/0000-0002-6047-9864</schema:identifier>
-    <schema:email>e.chuc@uq.edu.au</schema:email>
-    <schema:affiliation rdf:resource="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66"/>
-    <schema:name>Edmond Chuc</schema:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/">
-    <dct:publisher rdf:resource="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66"/>
-    <owl:versionIRI rdf:resource="https://w3id.org/tern/ontologies/ssn/0.0.6"/>
-    <dct:creator rdf:nodeID="ub1bL23C15"/>
-    <vann:preferredNamespacePrefix>tern-skos</vann:preferredNamespacePrefix>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-26</dct:created>
-    <rdfs:comment>TERN SKOS is an extension to the SKOS vocabulary.</rdfs:comment>
-    <owl:imports rdf:resource="https://w3id.org/tern/ontologies/ssn/"/>
-    <owl:versionInfo>0.0.6</owl:versionInfo>
-    <rdfs:label>TERN SKOS Extension</rdfs:label>
-    <rdfs:seeAlso rdf:resource="https://github.com/ternaustralia/ontology_tern-skos"/>
-    <prov:wasGeneratedBy rdf:nodeID="ub1bL40C23"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
-    <vann:preferredNamespaceUri>https://w3id.org/tern/ontologies/skos/</vann:preferredNamespaceUri>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-27</dct:modified>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/hasObservationTheme">
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
-    <rdfs:comment>Link a Concept to an observation theme.</rdfs:comment>
-    <rdfs:label>has observation theme</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/hasParameter">
-    <rdfs:comment>Link a Concept to a parameter.</rdfs:comment>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label>has parameter</rdfs:label>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/procedure">
-    <rdfs:label>procedure</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/globalMatch">
-    <rdfs:comment>Link a Concept to an upper Concept.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
-    <rdfs:label>global match</rdfs:label>
-    <owl:inverseOf rdf:resource="https://w3id.org/tern/ontologies/skos/isGlobalMatchOf"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/equipment">
-    <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label>equipment</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/purpose">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label>purpose</rdfs:label>
-    <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/instructions">
-    <rdfs:label>instructions</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/hasCategoricalVariableCollection">
     <rdfs:label>has categorical variable collection</rdfs:label>
-    <rdfs:comment>Link a Concept to a Categorical Variable collection.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>Link a Concept to a Categorical Variable collection.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/scope">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:label>scope</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct:creator rdf:nodeID="ub1bL23C15"/>
+    <vann:preferredNamespacePrefix>tern-skos</vann:preferredNamespacePrefix>
+    <vann:preferredNamespaceUri>https://w3id.org/tern/ontologies/skos/</vann:preferredNamespaceUri>
+    <rdfs:label>TERN SKOS Extension</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://github.com/ternaustralia/ontology_tern-skos"/>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
+    <prov:wasGeneratedBy rdf:nodeID="ub1bL40C23"/>
+    <dct:publisher rdf:resource="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66"/>
+    <owl:imports rdf:resource="https://w3id.org/tern/ontologies/ssn/"/>
+    <rdfs:comment>TERN SKOS is an extension to the SKOS vocabulary.</rdfs:comment>
+    <owl:versionIRI rdf:resource="https://w3id.org/tern/ontologies/ssn/0.0.7"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-28</dct:modified>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-26</dct:created>
+    <owl:versionInfo>0.0.7</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/equipment">
+    <rdfs:label>equipment</rdfs:label>
     <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/hasMethod">
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/hasParameter">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
-    <rdfs:comment>Link a Concept to a method.</rdfs:comment>
-    <rdfs:label>has method</rdfs:label>
+    <rdfs:label>has parameter</rdfs:label>
+    <rdfs:comment>Link a Concept to a parameter.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub1bL40C23">
-    <doap:repository rdf:resource="https://github.com/ternaustralia/ontology_tern-skos"/>
-    <rdf:type rdf:resource="http://usefulinc.com/ns/doap#Project"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/globalMatch">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    <rdfs:label>global match</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>Link a Concept to an upper Concept.</rdfs:comment>
+    <owl:inverseOf rdf:resource="https://w3id.org/tern/ontologies/skos/isGlobalMatchOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/procedure">
+    <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
+    <rdfs:label>procedure</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/scope">
+    <rdfs:label>scope</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/isGlobalMatchOf">
-    <rdfs:comment>Link the upper Concept to a Concept.</rdfs:comment>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     <rdfs:label>is global match of</rdfs:label>
+    <rdfs:comment>Link the upper Concept to a Concept.</rdfs:comment>
     <owl:inverseOf rdf:resource="https://w3id.org/tern/ontologies/skos/globalMatch"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/instructions">
+    <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>instructions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL23C15">
+    <schema:affiliation rdf:resource="https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66"/>
+    <schema:email>e.chuc@uq.edu.au</schema:email>
+    <schema:name>Edmond Chuc</schema:name>
+    <schema:identifier>https://orcid.org/0000-0002-6047-9864</schema:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/purpose">
+    <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
+    <rdfs:label>purpose</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/hasMethod">
+    <rdfs:label>has method</rdfs:label>
+    <rdfs:comment>Link a Concept to a method.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL40C23">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <doap:repository rdf:resource="https://github.com/ternaustralia/ontology_tern-skos"/>
+    <rdf:type rdf:resource="http://usefulinc.com/ns/doap#Project"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/reasonForCollection">
     <rdfs:domain rdf:resource="https://w3id.org/tern/ontologies/ssn/Method"/>
-    <rdfs:label>reason for collection</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>reason for collection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/tern/ontologies/skos/hasObservationTheme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment>Link a Concept to an observation theme.</rdfs:comment>
+    <rdfs:label>has observation theme</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
   </rdf:Description>
 </rdf:RDF>
